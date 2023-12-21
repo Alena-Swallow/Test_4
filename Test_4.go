@@ -1,4 +1,5 @@
-go
+// You can edit this code!
+// Click here and start typing.
 package main
 
 import "fmt"
@@ -25,7 +26,7 @@ func (ms MyStruct) Id() int {
 }
 
 func main() {
-    myStruct := NewMyStruct("John", 123)
+    myStruct := NewMyStruct("Lena", 123)
     fmt.Println("Name:", myStruct.Name())
     fmt.Println("Id:", myStruct.Id())
 }
